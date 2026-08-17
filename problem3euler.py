@@ -5,7 +5,6 @@ def main():
     n=600851475143
     # Factors Repeat after the floor of the sqrt(n), so stop there.
     div = 2
-    max_factor = int(math.sqrt(n))
     while n % div == 0:
         print(div)
         n //=div
@@ -20,7 +19,8 @@ def main():
         else:
             div += 2
     # This one is the largest prime factor
-    print(n)
+    if n != 1:
+        print(n)
 
 
 if __name__=='__main__' :
