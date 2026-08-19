@@ -1,6 +1,7 @@
 # shape_columbia
 
-A small collection of data structures and algorithms exercises in Python, organized by topic.
+Python algorithm exercises from Intro to Algorithms in SHAPE 2026, organized by topic. 
+Final project: Leetcode problem 994 "Rotting Oranges"
 
 ## Contents
 
